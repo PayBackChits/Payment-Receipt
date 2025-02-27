@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayBack Chits</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: sans-serif;
+        }
+
+        #main {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: center;
+            align-items: center;
+            gap: 60px;
+            padding: 50px 30px;
+            margin-top: 200px;
+
+
+            #field {
+                display: flex;
+                flex-direction: row;
+                justify-content: center         ;
+                align-items: end ;
+                font-size: 40px;
+                width: 650px;   
+            }
+
+            input {
+                border: none;
+                outline: none;
+                width: 500px;
+                height: 2.5rem;
+                margin-left: -5px;
+                border: 2px black solid ;
+                font-size: 20px;
+            }
+
+            #name {
+                width: 300px;
+                font-weight: 500;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="field">
+            <div id="name">Name: </div>
+            <input type="text" class="inp_name">
+        </div>
+        <div id="field">
+            <div id="name">Chit Amount: </div>
+            <input type="text" class="inp_name">
+        </div>
+        <div id="field">
+            <div id="name">Chit Ref: </div>
+            <input type="text" class="inp_name">
+        </div>
+        <div id="field">
+            <div id="name">Divident: </div>
+            <input type="text" class="inp_name">
+        </div>
+        <div id="field">
+            <div id="name">Member Ref: </div>
+            <input type="text" class="inp_name">
+        </div>
+        <div id="field">
+            <div id="name">Payable Amount: </div>
+            <input type="text" class="inp_name">
+        </div>
+        <div id="field">
+            <div id="name">Month: </div>
+            <input type="text" class="inp_name">
+        </div>
+    </div>
+</body>
+
+</html>
